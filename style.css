@@ -1,0 +1,134 @@
+h1 { color: red; }
+/*{border: solid;}*/
+.header{background-color: pink; display: flex; justify-content: space-between;}
+p,h2{text-align: center;}
+.footer{display:flex; justify-content:flex-end}
+.grid{display:flex; flex-wrap: wrap; justify-content: space-evenly}
+body {background-color: pink;color:darkblue}
+
+* {
+   
+    background-color:pink;
+    font-family: cursive, fantasy, serif;
+    margin: 0px;
+}
+
+
+.header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding:25px
+}
+
+.grid {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.panda{
+    display : flex;
+    color:yellow
+}
+
+.panda-text{
+    display: flex;
+    justify-content: space-between;
+    color:magenta
+}
+
+.chameleon{
+    display : flex;
+    color:purple
+}
+
+.chameleon-text{
+    display: flex;
+    justify-content: space-between;
+    color:blue
+}
+
+.cicada{
+    display : flex;
+    color:black
+}
+
+.cicada-text{
+    display: flex;
+    justify-content: space-between;
+    color:white
+}
+
+.pigeon{
+    display : flex;
+    color:orange
+}
+
+.pigeon-text{
+    display: flex;
+    justify-content: space-between;
+    color:gold
+}
+
+.teddy{
+    display : flex;
+    color:silver
+}
+
+.teddy-text{
+    display: flex;
+    justify-content: space-between;
+    color:brown
+}
+
+.camel{
+    display : flex;
+    color:palegreen
+}
+
+.camel-text{
+    display: flex;
+    justify-content: space-between;
+    color:gold
+}
+
+    h1{
+        text-align: center;
+        margin-left: 30px;
+        color : blue;
+        padding: 25px;
+}
+
+body{
+    background: blue;
+    color: whitesmoke;
+}
+
+.Links {
+    padding: 25px;
+}
+
+img {
+    margin-bottom: -5px;
+}
+
+li {
+    color: blueviolet;
+}
+
+b {
+    font-size: 20px;
+    color:violet;
+}
+
+i {
+    font-size: 20px;
+    color:black;
+}
+a:link{color:green}
+a:visited{color:green}
+.item{position:relative}
+.item p{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);opacity:0;}
+.item:hover p{opacity:1;}
+.item:hover img{opacity:0.3;}
